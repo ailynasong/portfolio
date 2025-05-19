@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ailyn Song's Personal Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script> 
+</head>
+
+<body>
+  <header class="main-header">
+    <nav>
+      <ul class="nav-menu">
+        <li class="hide-on-mobile"><a href="#home">Home</a></li>
+        <li class="hide-on-mobile"><a href="#about">About</a></li>
+        <li class="hide-on-mobile"><a href="#skills">Skills</a></li>
+        <li class="hide-on-mobile"><a href="#projects">Projects</a></li>
+        <li class="hide-on-mobile"><a href="#contact">Contact</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <h1 class="hero-greeting">Hello, <em>my name is</em></h1>
+
+      <div class="hero-box-svg">
+        <svg viewBox="0 0 200 200" class="svg-shape" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="gradient" x1="13.9998" y1="26" x2="179" y2="179.498" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#E9B8FF" />
+              <stop offset="1" stop-color="#F9ECFF" />
+            </linearGradient>
+          </defs>
+          <path d="M100 173.738C24.3644 236.944 -36.9438 175.636 26.2621 100C-36.9438 24.3644 24.3644 -36.9438 100 26.2621C175.621 -36.9438 236.944 24.3644 173.738 100C236.944 175.578 175.621 236.944 100 173.738Z"
+            fill="url(#gradient)" />
+        </svg>
+        <div class="svg-text">AILYN SONG</div>
+      </div>
+
+      <div class="hero-sub-container">
+        <p class="hero-sub">Blending financial markets, code, and design to craft beautiful, functional experiences.</p>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2>About</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <h3>🎓 Education & Background</h3>
+          <p>
+            Hi, I’m <span class="highlight-name">Ailyn Song</span> — a curious mind at the intersection of finance, data, and technology. I recently earned a Bachelor of Science in Business from NYU Stern, with a dual concentration in Finance and Data Science. I’ve always been drawn to the way data shapes markets, predicts trends, and drives innovation.
+          </p>
+
+          <h3>💼 Professional Experiences</h3>
+          <p>
+            I’ve interned in environments ranging from trading desks to investment banking and asset management. I’ve supported cross-border M&A transactions, built financial models, and delivered sales pitches with client teams. On the tech side, I’ve contributed to machine learning research involving LLMs, NLP, and financial data automation. I love turning complex financial ideas into code-driven insights.
+          </p>
+
+          <h3>🌱 Interests</h3>
+          <p>
+            I LOVE NATURE. I’m a long-distance runner who has completed two half-marathons. I enjoy camping, hiking, city-walking, boba-hunting, and discovering good restaurants with friends. I also speak four languages and earned a gold medal in the 2020 National Linguistics Olympiad.
+          </p>
+
+          <h3>🚀 What's Next?</h3>
+          <p>
+            My goal is to combine my skills in finance, data science, and computer science to improve how we make decisions and create tools that are insightful, human-centered, and future-facing.
+          </p>
+        </div>
+
+        <div class="about-image">
+          <img src="images/profile.jpg" srcset="images/profile@2x.jpg 2x" width="300" height="300" alt="Ailyn Song Profile Picture" />
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">Excel</div>
+        <div class="skill-card">PowerPoint</div>
+        <div class="skill-card">Word</div>
+        <div class="skill-card">Bloomberg</div>
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">R</div>
+        <div class="skill-card">SQL</div>
+        <div class="skill-card">Python</div>
+        <div class="skill-card">Pitchbook</div>
+        <div class="skill-card">Figma</div>
+        <div class="skill-card">Tableau</div>
+        <div class="skill-card">Minitab</div>
+        <div class="skill-card">Financial Accounting</div>
+        <div class="skill-card">Adobe</div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img
+            src="images/tour.png"
+            srcset="images/tour@2x.png 2x"
+            width="128"
+            height="128"
+            alt="A Map Icon for Campus Tour Optimization"
+          />
+          <h3>Campus Tour Optimization</h3>
+          <p>Applied dynamic programming to solve the Traveling Salesman Problem for NYU's campus tour to optimize routes.</p>
+          <p class="project-tools">Python, DP, DataViz</p>
+          <a href="https://docs.google.com/presentation/d/1MDT8nYhcARGiybee9TCCUI9matJc8oGwsagZclzrgxc/edit?usp=sharing" target="_blank">View Slides</a>
+        </div>
+
+        <div class="project-card">
+          <img
+            src="images/arima.png"
+            srcset="images/arima@2x.png 2x"
+            width="128"
+            height="128"
+            alt="A Forecast Icon for Meta ARIMA Forecast"
+          />          
+          <h3>Meta ARIMA Forecast</h3>
+          <p>Built an ARIMA model to forecast Meta stock prices with diagnostics, confidence intervals, and backtesting.</p>
+          <p class="project-tools">R, Time Series Analysis</p>
+          <a href="pdfs/AilynSong_Time Series Project.pdf" target="_blank">View Report</a>
+        </div>
+
+        <div class="project-card">
+          <img
+            src="images/stock.png"
+            srcset="images/stock@2x.png 2x"
+            width="128"
+            height="128"
+            alt="A Stock Icon for Stock Price Prediction Tool"
+          />            
+          <h3>Stock Price Prediction</h3>
+          <p>Created a Python script that analyzes CSVs with Capital IQ stock data and predicts future prices using regression and RSI.</p>
+          <p class="project-tools">Python, Sklearn, Matplotlib</p>
+          <a href="pdfs/Code.pdf" target="_blank">View Code</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+      <p>Email me at <a href="mailto:ailyn.song@stern.nyu.edu">ailyn.song@stern.nyu.edu</a></p>
+      <div class="social-icons">
+        <a href="https://github.com/ailynasong" target="_blank">
+          <img 
+            src="images/github-icon.png" 
+            srcset="images/github-icon@2x.png 2x"
+            width="40" 
+            height="40" 
+            alt="GitHub's Icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/ailyn-song/" target="_blank">
+          <img 
+            src="images/linkedin-icon.png" 
+            srcset="images/linkedin-icon@2x.png 2x"
+            width="40" 
+            height="40" 
+            alt="LinkedIn's Icon" />
+        </a>
+        <a href="https://www.instagram.com/ailyna_s/" target="_blank">
+          <img 
+            src="images/instagram-icon.png" 
+            srcset="images/instagram-icon@2x.png 2x"
+            width="40" 
+            height="40" 
+            alt="Instagram's Icon" />
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="side-footnote">
+    ailyn song © 2025
+  </footer>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ailyn Song's Blog</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header class="main-header">
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="accessible-box">
+        <h1 id="dayGreeting">Welcome to My Blog</h1>
+        <p class="hero-sub">Reflections, identity, and small truths — one essay at a time.</p>
+      </div>
+      <div class="audio-player-section">
+        <h2 class="audio-heading">Now Playing <span>🎵</span></h2>
+        <audio controls>
+          <source src="audio/mixkit-forever-love-38.mp3" type="audio/mp3">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </section>
+
+    <section class="blog-grid">
+      <div class="featured-post">
+        <h2>To Start from Dessert 🍮</h2>
+        <p>
+          A distance of 5,500 kilometers burdens us Chinese with thousands of ways to draw a distinct line between North and South. But I, inspired by the weekend breakfast arguments between my northern father and southern mother, discovered something small but powerful that symbolizes this cultural divide: tofu.
+        </p>
+        <p>
+          My father's salty, spicy Douhua and my mother's honeyed tofu pudding became metaphors for their values. As a child, I leaned into my father’s fiery rationality, signing up for marathons and debating euthanasia laws. But my mother’s emotional gentleness — encouraging me to become a student counselor and community volunteer — reminded me of the sweet side of life. This is the taste of my home: bold, kind, and contradictory in harmony.
+        </p>
+        <a href="pdfs/dessert.pdf" class="read-more" target="_blank" rel="noopener">Click this link to read →</a>
+        <p class="essay-note">This piece was published in NYU’s literary magazine <em>West 4th Street Review</em> in Spring 2022.</p>
+        <img 
+          src="images/w4sr.png" 
+          srcset="images/w4sr@2x.png 2x" 
+          width="500" 
+          height="650" 
+          alt="West 4th Street Review Website Design" 
+          class="essay-publication-image" />
+      </div>
+
+      <div class="upcoming-posts">
+        <div class="blog-post coming-soon">
+          <h3>Running Into Myself 🏃‍♀️</h3>
+          <p>A story about half-marathons, self-discipline, and the peace found in exhaustion.</p>
+          <span class="coming-label">Coming Soon</span>
+        </div>
+
+        <div class="blog-post coming-soon">
+          <h3>When Law Meets Emotion ⚖️</h3>
+          <p>Exploring natural law and legal realism through my family's Sunday debates.</p>
+          <span class="coming-label">Coming Soon</span>
+        </div>
+
+        <div class="blog-post coming-soon">
+          <h3>Data Dreams & Doubts 📊</h3>
+          <p>A personal reckoning with technology, ambition, and the human side of machine learning.</p>
+          <span class="coming-label">Coming Soon</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="side-footnote">
+    ailyn song © 2025
+  </footer>
+
+</body>
+</html>
